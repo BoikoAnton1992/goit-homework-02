@@ -1,3 +1,48 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #2E2F42;
+}
+
+p{
+    font-style: normal;
+}
+
+h1{
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+        text-align: center;
+}
+
+h2{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        text-align: center;
+}
+
+h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
+
+
+
+ul,
+ol {
+    list-style-type: none;
+}
 
 body{
         font-family: 'Roboto', sans-serif;
@@ -6,30 +51,77 @@ body{
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 24px;
+            line-height: 1.5;
             letter-spacing: 0.32px;
 }
 
-.logo-sudio{
+.logo-sudio-header{
     font-family: 'Raleway', sans-serif;
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
         font-family: Raleway;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.16;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
 }
 .logo-web{
-    color: var(--IRIS, #4D5AE5);
+    color: #4D5AE5;
         font-family: Raleway;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 21px;
+        line-height: 1.16;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
 }
+
+.logo-sudio-footer{
+    color: #F4F4FD;
+    font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+
+.head-nav .link {
+    text-decoration: none;
+    color:#2E2F42;
+}
+
+.head-nav .link:focus,
+.head-nav .link:hover {
+color: #404BBF;
+}
+
+.order-button{
+    background:#4D5AE5;
+    color: #FFF;
+}
+
+.order-button:hover,
+.order-button:focus
+{
+    background:#404BBF;
+}
+
+.hero-section{
+    background-color: #2E2F42;
+}
+
+.our-team-section{
+    background-color: #F4F4FD;
+}
+
+.futter{
+    background-color: #2E2F42;
+   color: #F4F4FD;
+}
+
