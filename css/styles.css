@@ -46,7 +46,7 @@ ol {
 
 body{
         font-family: 'Roboto', sans-serif;
-        color: #2E2F42;
+        color: #434455;
         background-color: #FFFFFF;
             font-size: 16px;
             font-style: normal;
@@ -58,22 +58,21 @@ body{
 .logo-sudio-header{
     font-family: 'Raleway', sans-serif;
     color: #2E2F42;
-        font-family: Raleway;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
 }
 .logo-web{
-    color: #4D5AE5;
-        font-family: Raleway;
+    color: #4d5ae5;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
@@ -81,11 +80,11 @@ body{
 
 .logo-sudio-footer{
     color: #F4F4FD;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
@@ -99,6 +98,31 @@ body{
 .head-nav .link:focus,
 .head-nav .link:hover {
 color: #404BBF;
+}
+.link{
+    font-weight: 500
+}
+
+.head-nav .mail:focus,
+.head-nav .mail:hover {
+    color: #404BBF;
+}
+
+.head-nav .phone:focus,
+.head-nav .phone:hover {
+    color: #404BBF;
+}
+
+.mail{
+text-decoration: none;
+    color: #434455;
+    font-style: normal
+}
+
+.phone{
+text-decoration: none;
+    color: #434455;
+    font-style: normal
 }
 
 .order-button{
