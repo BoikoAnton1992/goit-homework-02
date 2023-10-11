@@ -57,7 +57,7 @@ body{
 
 .logo-sudio-header{
     font-family: 'Raleway', sans-serif;
-    color: #2E2F42;
+    color: #4d5ae5;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
@@ -66,16 +66,9 @@ body{
         text-transform: uppercase;
         text-decoration: none;
 }
-.logo-web{
-    color: #4d5ae5;
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        text-decoration: none;
+
+.logo-studio{
+    color: #2e2f42;
 }
 
 .logo-sudio-footer{
