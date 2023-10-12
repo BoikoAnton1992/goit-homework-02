@@ -1,13 +1,8 @@
-ul,
-ol {
-    list-style-type: none;
-}
+/* ========== GLOBAL ========== */
 
 button {
     cursor: pointer;
 }
-
-
 
 h1,
 h2,
@@ -20,95 +15,75 @@ h6 {
     color: #2E2F42;
 }
 
-.header-address{
-    font-style: normal
-}
-
-
-p{
+p {
     font-style: normal;
 }
 
-.title{
-    font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.07;
-        letter-spacing: 1.12px;
-        color: #FFFFFF;
-        text-align: center;
-}
-
-
-h2{
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.72px;
-        text-transform: capitalize;
-        text-align: center;
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 h3 {
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.4px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
 }
 
-
-body{
-        font-family: 'Roboto', sans-serif;
-        color: #434455;
-        background-color: #FFFFFF;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 1.5;
-            letter-spacing: 0.32px;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
-.logo-header{
+.global-list {
+    list-style-type: none;
+}
+
+/* ========== GLOBAL ==========/ */
+
+
+/* ========== PAGE HEADER ========== */
+
+.logo-header {
     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
     color: #4d5ae5;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        text-decoration: none;
 }
 
-.logo-futter{
-    font-family: 'Raleway', sans-serif;
-        color: #4d5ae5;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        text-decoration: none;
-}
-
-.logo-studio{
+.logo-studio {
     color: #2e2f42;
 }
 
-.logo-studio-futter{
+.logo-studio-futter {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
     color: #F4F4FD;
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.17;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        text-decoration: none;
 }
 
-.link-studio{
+.link-studio {
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-size: 16px;
@@ -118,80 +93,133 @@ body{
 }
 
 .link-studio:hover,
-.link-studio:focus{
+.link-studio:focus {
     color: #404bbf;
 }
 
-.head-nav .link {
-    text-decoration: none;
-    color:#2E2F42;
+.header-address {
+    font-style: normal
 }
 
-.head-nav .link:focus,
-.head-nav .link:hover {
-color: #404BBF;
-}
-.link-address{
+.link-address {
     font-weight: 500;
     color: #434455;
+    list-style-type: none;
+    text-decoration: none;
 }
+
 .link-address:hover,
-.link-address:focus
-{
-color: #404bbf;
+.link-address:focus {
+    color: #404bbf;
 }
 
-.mail{
-text-decoration: none;
-    color: #434455;
-    font-style: normal
+/* ========== PAGE HEADER ==========/ */
+
+
+/* ========== SECTION 1 ========== */
+.hero-section {
+    background-color: #2E2F42;
 }
 
-.phone{
-text-decoration: none;
-    color: #434455;
-    font-style: normal
+.main-title {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
-.order-button{
-    background:#4D5AE5;
-    color: #FFF;
+.order-button {
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    background: #4D5AE5;
+    color: #FFFFFF;
 }
 
 .order-button:hover,
-.order-button:focus
-{
-    background:#404BBF;
+.order-button:focus {
+    background: #404BBF;
 }
+/* ========== SECTION 1 ==========/ */
 
-.hero-section{
-    background-color: #2E2F42;
-}
 
-.our-team-section{
+/* ========== SECTION 2 ========== */
+
+
+
+/* ========== SECTION 2 ==========/ */
+
+
+/* ========== SECTION 3 ==========/ */
+
+.our-team-section {
     background-color: #F4F4FD;
 }
 
-.futter{
-    background-color: #2E2F42;
-   color: #F4F4FD;
+.our-team-list {
+    list-style-type: none;
+    background-color: #FFFFFF;
 }
 
-.our-team-items
-{
+.our-team-items {
     color: #F4F4FD;
     background-color: #FFFFFF
 }
 
-.our-team-text{
+.our-team-text {
     font-size: 16px;
     color: #434455;
 }
 
-.our-team-list{
-background-color: #FFFFFF;
+/* ========== SECTION 3 ==========/ */
+
+
+/* ========== SECTION 4 ========== */
+
+
+/* ========== SECTION 4 ==========/ */
+
+
+/* ========= FOOTER ========= */
+.logo-studio-futter{
+    font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #F4F4FD;
 }
+
+.logo-futter {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d5ae5;
+}
+
+
+
+.futter{
+    font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        color: #F4F4FD;
+        background-color: #2E2F42;
+}
+
+/* ========= FOOTER =========/ */
