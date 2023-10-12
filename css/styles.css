@@ -68,7 +68,7 @@ body{
             letter-spacing: 0.32px;
 }
 
-.logo-sudio-header{
+.logo-header{
     font-family: 'Raleway', sans-serif;
     color: #4d5ae5;
         font-size: 18px;
@@ -94,6 +94,13 @@ body{
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
+}
+
+.link-studio{
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #434455;
 }
 
 .head-nav .link {
@@ -156,4 +163,9 @@ text-decoration: none;
 
 .our-team-text{
     font-size: 16px;
+    color: #434455;
+}
+
+.our-team-list{
+background-color: #FFFFFF;
 }
