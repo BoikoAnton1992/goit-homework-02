@@ -135,6 +135,11 @@ color: #404BBF;
     font-weight: 500;
     color: #434455;
 }
+.link-address:hover,
+.link-address:focus
+{
+color: #404bbf;
+}
 
 .mail{
 text-decoration: none;
