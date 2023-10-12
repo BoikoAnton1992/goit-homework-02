@@ -1,3 +1,14 @@
+ul,
+ol {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
 h1,
 h2,
 h3,
@@ -9,17 +20,25 @@ h6 {
     color: #2E2F42;
 }
 
+.header-address{
+    font-style: normal
+}
+
+
 p{
     font-style: normal;
 }
 
-h1{
-        font-size: 56px;
+.title{
+    font-size: 56px;
+        font-style: normal;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 1.12px;
+        color: #FFFFFF;
         text-align: center;
 }
+
 
 h2{
         font-size: 36px;
@@ -37,12 +56,6 @@ h3 {
         letter-spacing: 0.4px;
 }
 
-
-
-ul,
-ol {
-    list-style-type: none;
-}
 
 body{
         font-family: 'Roboto', sans-serif;
@@ -96,16 +109,6 @@ color: #404BBF;
     font-weight: 500
 }
 
-.head-nav .mail:focus,
-.head-nav .mail:hover {
-    color: #404BBF;
-}
-
-.head-nav .phone:focus,
-.head-nav .phone:hover {
-    color: #404BBF;
-}
-
 .mail{
 text-decoration: none;
     color: #434455;
@@ -121,6 +124,10 @@ text-decoration: none;
 .order-button{
     background:#4D5AE5;
     color: #FFF;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .order-button:hover,
@@ -142,3 +149,11 @@ text-decoration: none;
    color: #F4F4FD;
 }
 
+.our-team-items
+{
+    color: #F4F4FD;
+}
+
+.our-team-text{
+    font-size: 16px;
+}

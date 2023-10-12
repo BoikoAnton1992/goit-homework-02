@@ -7,9 +7,6 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,8 +18,8 @@
   </head>
   <body>
     <!-- PAGE HEADER -->
-    <header>
-      <nav>
+    <header class="page-header">
+      <nav class="page-nav">
         <a class="logo-sudio-header" href="./index.html"
           >Web<span class="logo-studio">Studio</span></a
         >
@@ -32,15 +29,15 @@
           <li><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address>
+      <address class="header-address">
         <ul class="head-nav">
           <li>
-            <a class="mail" href="mailto:info@devstudio.com"
+            <a class="link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="phone" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
@@ -48,35 +45,35 @@
     <main>
       <!-- HERO SECTION -->
       <section class="hero-section">
-        <h1>Effective Solutions for Your Business</h1>
+        <h1 class="title">Effective Solutions for Your Business</h1>
         <button class="order-button" type="button">Order Service</button>
       </section>
       <section>
-        <h2>content</h2>
+        <h2 class="content-section">content</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
+            <h3 class="content-items">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
+            <h3 class="content-items">Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
+            <h3 class="content-items">Diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
+            <h3 class="content-items">Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -85,51 +82,51 @@
         </ul>
       </section>
       <section class="our-team-section">
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+        <h2 class="our-team-title">Our Team</h2>
+        <ul class="our-team-list">
+          <li class="our-team-items">
             <img
               src="./images/mark_guerrero.jpg"
               width="264"
               height="260"
               alt="Man"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="our-team-title">Mark Guerrero</h3>
+            <p class="our-team-text">Product Designer</p>
           </li>
-          <li>
+          <li class="our-team-items">
             <img
               src="./images/tom_ford.jpg"
               width="264"
               height="260"
               alt="Man"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="our-team-title">Tom Ford</h3>
+            <p class="our-team-text">Frontend Developer</p>
           </li>
-          <li>
+          <li class="our-team-items">
             <img
               src="./images/camila_garcia.jpg"
               width="264"
               height="260"
               alt="Woman"
             />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="our-team-title">Camila Garcia</h3>
+            <p class="our-team-text">Marketing</p>
           </li>
-          <li>
+          <li class="our-team-items">
             <img
               src="./images/daniel_wilson.jpg"
               width="264"
               height="260"
               alt="Man"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="our-team-title">Daniel Wilson</h3>
+            <p class="our-team-text">UI Designer</p>
           </li>
         </ul>
       </section>
-      <section>
+      <section class="our-portfolio-section">
         <h2 class="our-portfolio">Our Portfolio</h2>
         <ul>
           <li>
@@ -140,7 +137,7 @@
               alt="Banking app images"
             />
             <h3 class="portfolio-items">Banking App</h3>
-            <p>App</p>
+            <p class="our-portfolio-text">App</p>
           </li>
           <li>
             <img
@@ -150,7 +147,7 @@
               alt="Pay by phone"
             />
             <h3 class="portfolio-items">Cashless Payment</h3>
-            <p>Marketing</p>
+            <p class="our-portfolio-text">Marketing</p>
           </li>
           <li>
             <img
@@ -160,7 +157,7 @@
               alt="Laptop and phone"
             />
             <h3 class="portfolio-items">Meditation App</h3>
-            <p>App</p>
+            <p class="our-portfolio-text">App</p>
           </li>
           <li>
             <img
@@ -170,7 +167,7 @@
               alt="Driver's hands on the steering wheel"
             />
             <h3 class="portfolio-items">Taxi Service</h3>
-            <p>Marketing</p>
+            <p class="our-portfolio-text">Marketing</p>
           </li>
           <li>
             <img
@@ -180,7 +177,7 @@
               alt="Screen illustrations"
             />
             <h3 class="portfolio-items">Screen Illustrations</h3>
-            <p>Design</p>
+            <p class="our-portfolio-text">Design</p>
           </li>
           <li>
             <img
@@ -190,7 +187,7 @@
               alt="Girl in an orange jacket"
             />
             <h3 class="portfolio-items">Online Courses</h3>
-            <p>Marketing</p>
+            <p class="our-portfolio-text">Marketing</p>
           </li>
         </ul>
       </section>
