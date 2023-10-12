@@ -80,6 +80,18 @@ body{
         text-decoration: none;
 }
 
+.logo-futter{
+    font-family: 'Raleway', sans-serif;
+        color: #4d5ae5;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+
 .logo-studio{
     color: #2e2f42;
 }
@@ -100,7 +112,7 @@ body{
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-size: 16px;
-    color: #2e2f42;
+    color: #434455;
     text-decoration: none;
     font-weight: 500
 }
