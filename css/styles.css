@@ -100,7 +100,14 @@ body{
     letter-spacing: 0.02em;
     line-height: 1.5;
     font-size: 16px;
-    color: #434455;
+    color: #2e2f42;
+    text-decoration: none;
+    font-weight: 500
+}
+
+.link-studio:hover,
+.link-studio:focus{
+    color: #404bbf;
 }
 
 .head-nav .link {
