@@ -1,10 +1,5 @@
 
 /* ========== GLOBAL ========== */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
 
 button {
     cursor: pointer;
@@ -108,7 +103,7 @@ body {
 }
 
 .link-address {
-    font-weight: 500;
+    font-weight: 400;
     color: #434455;
     list-style-type: none;
     text-decoration: none;
